@@ -1,0 +1,19 @@
+[03:37:40.682] Global cache location '/home/frog/.cache/typescript/4.6', safe file path '/usr/lib/node_modules/typescript/lib/typingSafeList.json', types map path /usr/lib/node_modules/typescript/lib/typesMap.json
+[03:37:40.683] Processing cache location '/home/frog/.cache/typescript/4.6'
+[03:37:40.683] Trying to find '/home/frog/.cache/typescript/4.6/package.json'...
+[03:37:40.757] Loaded content of '/home/frog/.cache/typescript/4.6/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.589"}}
+[03:37:40.757] Loaded content of '/home/frog/.cache/typescript/4.6/package-lock.json'
+[03:37:40.757] Finished processing cache location '/home/frog/.cache/typescript/4.6'
+[03:37:40.757] Process id: 4500
+[03:37:40.757] NPM location: /usr/bin/npm (explicit '--npmLocation' not  provided)
+[03:37:40.757] validateDefaultNpmLocation: false
+[03:37:40.758] Npm config file: /home/frog/.cache/typescript/4.6/package.json
+[03:37:40.758] Updating types-registry npm package...
+[03:37:40.758] Exec: /usr/bin/npm install --ignore-scripts types-registry@latest
+[03:37:41.752]     Succeeded. stdout:
+    
+    up to date, audited 2 packages in 770ms
+
+found 0 vulnerabilities
+
+[03:37:41.752] Updated types-registry npm package

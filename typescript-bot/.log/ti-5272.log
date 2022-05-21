@@ -1,0 +1,60 @@
+[03:51:23.182] Global cache location '/home/frog/.cache/typescript/4.6', safe file path '/usr/lib/node_modules/typescript/lib/typingSafeList.json', types map path /usr/lib/node_modules/typescript/lib/typesMap.json
+[03:51:23.183] Processing cache location '/home/frog/.cache/typescript/4.6'
+[03:51:23.184] Trying to find '/home/frog/.cache/typescript/4.6/package.json'...
+[03:51:23.185] Loaded content of '/home/frog/.cache/typescript/4.6/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.589"}}
+[03:51:23.185] Loaded content of '/home/frog/.cache/typescript/4.6/package-lock.json'
+[03:51:23.185] Finished processing cache location '/home/frog/.cache/typescript/4.6'
+[03:51:23.185] Process id: 5290
+[03:51:23.185] NPM location: /usr/bin/npm (explicit '--npmLocation' not  provided)
+[03:51:23.185] validateDefaultNpmLocation: false
+[03:51:23.186] Npm config file: /home/frog/.cache/typescript/4.6/package.json
+[03:51:23.186] Updating types-registry npm package...
+[03:51:23.186] Exec: /usr/bin/npm install --ignore-scripts types-registry@latest
+[03:51:23.969]     Succeeded. stdout:
+    
+    up to date, audited 2 packages in 516ms
+
+found 0 vulnerabilities
+
+[03:51:23.969] Updated types-registry npm package
+[04:00:29.983] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":[],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/frog/public/typescript_bot","kind":"discover"}
+[04:00:30.007] Loaded safelist from types map file '/usr/lib/node_modules/typescript/lib/typesMap.json'
+[04:00:30.007] Explicitly included types: []
+[04:00:30.008] Typing names in '/home/frog/public/typescript_bot/package.json' dependencies: ["discord.js","dotenv","mongoose","wokcommands"]
+[04:00:30.008] Searching for typing names in /home/frog/public/typescript_bot/node_modules; all files: ["/home/frog/public/typescript_bot/node_modules/discord.js/package.json","/home/frog/public/typescript_bot/node_modules/dotenv/package.json","/home/frog/public/typescript_bot/node_modules/mongoose/package.json","/home/frog/public/typescript_bot/node_modules/wokcommands/package.json"]
+[04:00:30.012]     Package 'discord.js' provides its own types.
+[04:00:30.014]     Package 'dotenv' provides its own types.
+[04:00:30.019]     Package 'mongoose' provides its own types.
+[04:00:30.020]     Package 'wokcommands' provides its own types.
+[04:00:30.020]     Found package names: []
+[04:00:30.020] Inferred typings from unresolved imports: []
+[04:00:30.020] Result: {"cachedTypingPaths":["/home/frog/public/typescript_bot/node_modules/discord.js/typings/index.d.ts","/home/frog/public/typescript_bot/node_modules/dotenv/lib/main.d.ts","/home/frog/public/typescript_bot/node_modules/mongoose/types/index.d.ts","/home/frog/public/typescript_bot/node_modules/wokcommands/typings.d.ts"],"newTypingNames":[],"filesToWatch":["/home/frog/public/typescript_bot/bower_components","/home/frog/public/typescript_bot/package.json","/home/frog/public/typescript_bot/node_modules"]}
+[04:00:30.021] Finished typings discovery: {"cachedTypingPaths":["/home/frog/public/typescript_bot/node_modules/discord.js/typings/index.d.ts","/home/frog/public/typescript_bot/node_modules/dotenv/lib/main.d.ts","/home/frog/public/typescript_bot/node_modules/mongoose/types/index.d.ts","/home/frog/public/typescript_bot/node_modules/wokcommands/typings.d.ts"],"newTypingNames":[],"filesToWatch":["/home/frog/public/typescript_bot/bower_components","/home/frog/public/typescript_bot/package.json","/home/frog/public/typescript_bot/node_modules"]}
+[04:00:30.021] DirectoryWatcher:: Added:: WatchInfo: /home/frog/public/typescript_bot/bower_components
+[04:00:30.021] DirectoryWatcher:: Added:: WatchInfo: /home/frog/public/typescript_bot/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[04:00:30.024] Elapsed:: 2.5661629997193813ms DirectoryWatcher:: Added:: WatchInfo: /home/frog/public/typescript_bot/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[04:00:30.024] FileWatcher:: Added:: WatchInfo: /home/frog/public/typescript_bot/package.json
+[04:00:30.024] FileWatcher:: Added:: WatchInfo: /home/frog/public/typescript_bot/package.json 2000 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[04:00:30.025] DirectoryWatcher:: Added:: WatchInfo: /home/frog/public/typescript_bot/node_modules
+[04:00:30.025] DirectoryWatcher:: Added:: WatchInfo: /home/frog/public/typescript_bot/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[04:00:30.053] Elapsed:: 28.386323999613523ms DirectoryWatcher:: Added:: WatchInfo: /home/frog/public/typescript_bot/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[04:00:30.054] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typings":["/home/frog/public/typescript_bot/node_modules/discord.js/typings/index.d.ts","/home/frog/public/typescript_bot/node_modules/dotenv/lib/main.d.ts","/home/frog/public/typescript_bot/node_modules/mongoose/types/index.d.ts","/home/frog/public/typescript_bot/node_modules/wokcommands/typings.d.ts"],"unresolvedImports":[],"kind":"action::set"}
+[04:00:30.055] Response has been sent.
+[04:00:30.055] No new typings were requested as a result of typings discovery
+[04:00:30.498] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/frog/public/typescript_bot/node_modules/discord.js/typings/index.d.ts","/home/frog/public/typescript_bot/node_modules/dotenv/lib/main.d.ts","/home/frog/public/typescript_bot/node_modules/mongoose/types/aggregate.d.ts","/home/frog/public/typescript_bot/node_modules/mongoose/types/connection.d.ts","/home/frog/public/typescript_bot/node_modules/mongoose/types/cursor.d.ts","/home/frog/public/typescript_bot/node_modules/mongoose/types/document.d.ts","/home/frog/public/typescript_bot/node_modules/mongoose/types/error.d.ts","/home/frog/public/typescript_bot/node_modules/mongoose/types/mongooseoptions.d.ts","/home/frog/public/typescript_bot/node_modules/mongoose/types/pipelinestage.d.ts","/home/frog/public/typescript_bot/node_modules/mongoose/types/schemaoptions.d.ts","/home/frog/public/typescript_bot/node_modules/mongoose/types/index.d.ts","/home/frog/public/typescript_bot/node_modules/wokcommands/typings.d.ts"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/frog/public/typescript_bot","kind":"discover"}
+[04:00:30.498] Explicitly included types: []
+[04:00:30.499] Typing names in '/home/frog/public/typescript_bot/package.json' dependencies: ["discord.js","dotenv","mongoose","wokcommands"]
+[04:00:30.499] Searching for typing names in /home/frog/public/typescript_bot/node_modules; all files: ["/home/frog/public/typescript_bot/node_modules/discord.js/package.json","/home/frog/public/typescript_bot/node_modules/dotenv/package.json","/home/frog/public/typescript_bot/node_modules/mongoose/package.json","/home/frog/public/typescript_bot/node_modules/wokcommands/package.json"]
+[04:00:30.502]     Package 'discord.js' provides its own types.
+[04:00:30.504]     Package 'dotenv' provides its own types.
+[04:00:30.509]     Package 'mongoose' provides its own types.
+[04:00:30.510]     Package 'wokcommands' provides its own types.
+[04:00:30.510]     Found package names: []
+[04:00:30.510] Inferred typings from unresolved imports: []
+[04:00:30.510] Result: {"cachedTypingPaths":["/home/frog/public/typescript_bot/node_modules/discord.js/typings/index.d.ts","/home/frog/public/typescript_bot/node_modules/dotenv/lib/main.d.ts","/home/frog/public/typescript_bot/node_modules/mongoose/types/index.d.ts","/home/frog/public/typescript_bot/node_modules/wokcommands/typings.d.ts"],"newTypingNames":[],"filesToWatch":["/home/frog/public/typescript_bot/bower_components","/home/frog/public/typescript_bot/package.json","/home/frog/public/typescript_bot/node_modules"]}
+[04:00:30.510] Finished typings discovery: {"cachedTypingPaths":["/home/frog/public/typescript_bot/node_modules/discord.js/typings/index.d.ts","/home/frog/public/typescript_bot/node_modules/dotenv/lib/main.d.ts","/home/frog/public/typescript_bot/node_modules/mongoose/types/index.d.ts","/home/frog/public/typescript_bot/node_modules/wokcommands/typings.d.ts"],"newTypingNames":[],"filesToWatch":["/home/frog/public/typescript_bot/bower_components","/home/frog/public/typescript_bot/package.json","/home/frog/public/typescript_bot/node_modules"]}
+[04:00:30.511] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typings":["/home/frog/public/typescript_bot/node_modules/discord.js/typings/index.d.ts","/home/frog/public/typescript_bot/node_modules/dotenv/lib/main.d.ts","/home/frog/public/typescript_bot/node_modules/mongoose/types/index.d.ts","/home/frog/public/typescript_bot/node_modules/wokcommands/typings.d.ts"],"unresolvedImports":[],"kind":"action::set"}
+[04:00:30.511] Response has been sent.
+[04:00:30.511] No new typings were requested as a result of typings discovery
