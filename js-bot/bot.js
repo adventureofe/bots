@@ -30,7 +30,7 @@ const emoji_salt = '🧂'
 
 async function reply_user(msg, user_id, reply, chance)
 {
-    let random_chance = (chance === null) ? 0 : Math.floor(Math.random() * chance);
+    let random_chance = (chance === undefined) ? 0 : Math.floor(Math.random() * chance);
 
     if(random_chance === 0)
     {
@@ -330,13 +330,11 @@ bot.on("guildMemberRemove", member => {
     [
         "Member: " + member.user.username + " has LEFT the server!",
          member.user.username + " just quit the server!",
-        "Everyone say goodbye to " + member.user.username
     ]
 
     const quit_images =
     [
         "https://i.kym-cdn.com/entries/icons/original/000/026/638/cat.jpg",
-        "https://cdn.discordapp.com/attachments/846387455706792007/981766651823407104/IMG_7996.png",
         "https://i.pinimg.com/736x/f8/12/29/f81229152558b4aaefa8205c0b84285d.jpg"
     ]
 
